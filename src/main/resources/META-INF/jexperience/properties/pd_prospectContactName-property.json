@@ -1,0 +1,32 @@
+{
+  "itemId": "pd_prospectContactName",
+  "itemType": "propertyType",
+  "version": 3,
+  "target": "profiles",
+  "defaultValue": null,
+  "dateRanges": [],
+  "numericRanges": [],
+  "ipRanges": [],
+  "automaticMappingsFrom": [],
+  "rank": null,
+  "mergeStrategy": null,
+  "multivalued": false,
+  "protected": false,
+  "metadata": {
+    "id": "pd_prospectContactName",
+    "name": "Prospect Contact Name",
+    "description": null,
+    "scope": null,
+    "tags": [],
+    "systemTags": [
+      "positionInCard.5",
+      "cardDataTag/_klsvfbw0j/2/Partner Deal Registration",
+      "hasCardDataTag"
+    ],
+    "enabled": true,
+    "missingPlugins": false,
+    "hidden": false,
+    "readOnly": false
+  },
+  "type": "string"
+}

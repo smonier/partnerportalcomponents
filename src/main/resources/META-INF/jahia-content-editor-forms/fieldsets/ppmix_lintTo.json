@@ -1,0 +1,50 @@
+{
+  "name": "ppmix:linkTo",
+  "displayName": "Link To",
+  "description": "",
+  "dynamic": false,
+  "fields": [
+    {
+      "name": "linkType",
+      "displayName": "Link Type",
+      "valueConstraints": [
+        {
+          "value": {
+            "type": "String",
+            "value": "internalLink"
+          },
+          "displayValue": "An internal content",
+          "propertyList": [
+            {
+              "name": "addMixin",
+              "value": "ppmix:internalLink"
+            }
+          ]
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "externalLink"
+          },
+          "displayValue": "An external content",
+          "propertyList": [
+            {
+              "name": "addMixin",
+              "value": "ppmix:externalLink"
+            }
+          ]
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "self"
+          },
+          "displayValue": "This content",
+          "propertyList": []
+        }
+      ]
+    }
+  ]
+}
+	
+ 

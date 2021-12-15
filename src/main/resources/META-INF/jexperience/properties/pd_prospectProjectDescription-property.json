@@ -1,0 +1,32 @@
+{
+  "itemId": "pd_prospectProjectDescription",
+  "itemType": "propertyType",
+  "version": 4,
+  "target": "profiles",
+  "defaultValue": null,
+  "dateRanges": [],
+  "numericRanges": [],
+  "ipRanges": [],
+  "automaticMappingsFrom": [],
+  "rank": null,
+  "mergeStrategy": null,
+  "multivalued": false,
+  "protected": false,
+  "metadata": {
+    "id": "pd_prospectProjectDescription",
+    "name": "Project Description",
+    "description": null,
+    "scope": null,
+    "tags": [],
+    "systemTags": [
+      "positionInCard.7",
+      "cardDataTag/_klsvfbw0j/2/Partner Deal Registration",
+      "hasCardDataTag"
+    ],
+    "enabled": true,
+    "missingPlugins": false,
+    "hidden": false,
+    "readOnly": false
+  },
+  "type": "string"
+}

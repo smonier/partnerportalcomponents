@@ -1,0 +1,32 @@
+{
+  "itemId": "pd_selectedProduct",
+  "itemType": "propertyType",
+  "version": 4,
+  "target": "profiles",
+  "defaultValue": null,
+  "dateRanges": [],
+  "numericRanges": [],
+  "ipRanges": [],
+  "automaticMappingsFrom": [],
+  "rank": null,
+  "mergeStrategy": null,
+  "multivalued": false,
+  "protected": false,
+  "metadata": {
+    "id": "pd_selectedProduct",
+    "name": "Selected Product",
+    "description": null,
+    "scope": null,
+    "tags": [],
+    "systemTags": [
+      "cardDataTag/_klsvfbw0j/2/Partner Deal Registration",
+      "positionInCard.8",
+      "hasCardDataTag"
+    ],
+    "enabled": true,
+    "missingPlugins": false,
+    "hidden": false,
+    "readOnly": false
+  },
+  "type": "string"
+}

@@ -1,0 +1,32 @@
+{
+  "itemId": "pd_registrationDate",
+  "itemType": "propertyType",
+  "version": 3,
+  "target": "profiles",
+  "defaultValue": null,
+  "dateRanges": [],
+  "numericRanges": [],
+  "ipRanges": [],
+  "automaticMappingsFrom": [],
+  "rank": null,
+  "mergeStrategy": null,
+  "multivalued": false,
+  "protected": false,
+  "metadata": {
+    "id": "pd_registrationDate",
+    "name": "Registration Date",
+    "description": null,
+    "scope": null,
+    "tags": [],
+    "systemTags": [
+      "positionInCard.0",
+      "cardDataTag/_klsvfbw0j/2/Partner Deal Registration",
+      "hasCardDataTag"
+    ],
+    "enabled": true,
+    "missingPlugins": false,
+    "hidden": false,
+    "readOnly": false
+  },
+  "type": "date"
+}

@@ -1,0 +1,32 @@
+{
+  "itemId": "pd_prospectCountry",
+  "itemType": "propertyType",
+  "version": 3,
+  "target": "profiles",
+  "defaultValue": null,
+  "dateRanges": [],
+  "numericRanges": [],
+  "ipRanges": [],
+  "automaticMappingsFrom": [],
+  "rank": null,
+  "mergeStrategy": null,
+  "multivalued": false,
+  "protected": false,
+  "metadata": {
+    "id": "pd_prospectCountry",
+    "name": "Prospect country Name",
+    "description": null,
+    "scope": null,
+    "tags": [],
+    "systemTags": [
+      "positionInCard.3",
+      "cardDataTag/_klsvfbw0j/2/Partner Deal Registration",
+      "hasCardDataTag"
+    ],
+    "enabled": true,
+    "missingPlugins": false,
+    "hidden": false,
+    "readOnly": false
+  },
+  "type": "string"
+}

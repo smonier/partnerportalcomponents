@@ -1,0 +1,46 @@
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<ppnt = 'http://www.jahia.org/partnerPortal/nt/1.0'>
+<ppmix = 'http://www.jahia.org/partnerPortal/mix/1.0'>
+
+[ppmix:partnerPortalComponents] > jmix:droppableContent, jmix:editorialContent mixin
+
+[ppnt:teamMember] > jnt:content, jmix:editorialContent, ppmix:partnerPortalComponents
+ - lastName (string)
+ - firstName (string)
+ - title (string) internationalized
+ - email (string)
+ - phone (string)
+ - linkedin (string)
+ - twitter (string)
+ - portrait (weakreference, picker[type='image'])
+ - cardBgClass (string)
+ - textColorClass (string)
+
+[ppnt:cardBoxLink] > jnt:content, jmix:editorialContent, ppmix:partnerPortalComponents, ppmix:linkTo
+ - title (string) internationalized
+ - subtitle (string) internationalized
+ - b4bgColorClass (string)
+ - faIcon (string)
+ - linkText (string) internationalized
+
+[ppnt:lastBlogs] > jnt:content, jmix:list, mix:title, jmix:queryContent, jmix:cache
+ - maxBlogs (long) = 10 indexed=no
+ - j:startNode (weakreference)
+ - j:sortDirection (string, choicelist[resourceBundle]) = 'asc' autocreated indexed=no < 'asc','desc'
+ - filter (weakreference, category[autoSelectParent=false])
+ - j:subNodesView (string, choicelist[templates=jcnt:blogEntry,resourceBundle,image]) nofulltext itemtype = layout
+
+  
+ //*** CONTENT LINKER //
+[ppmix:linkTo] mixin
+ - linkType (string, choicelist) indexed=no
+ - linkTarget (string, choicelist[resourceBundle]) = _blank autocreated indexed=no < '_blank', '_self', '_parent', '_top'
+[ppmix:internalLink] > jmix:dynamicFieldset mixin
+ extends = ppmix:linkTo
+ - internalLink (weakreference, picker[type='editoriallink']) < 'jmix:droppableContent', 'jnt:page', 'jnt:file'
+
+[ppmix:externalLink] > jmix:dynamicFieldset mixin
+ extends = ppmix:linkTo
+ - externalLink (string) = 'https://'
+ // CONTENT LINKER ***//
